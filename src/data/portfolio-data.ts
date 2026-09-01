@@ -189,13 +189,14 @@ export const projects: Project[] = [
   },
   {
     id: "proj-4",
-    name: "Edmonton Transit Digital Display Prototype",
+    name: "City of Edmonton Hackathon — Real-Time Bus Stop Display",
     description:
-      "Developed a digital display prototype for Edmonton Transit during a hackathon, focusing on real-time transit information, user interface design, and responsive layout.",
-    techStack: ["UI/UX Design", "Prototyping", "Hackathon"],
-    liveUrl: "[Add Project Link]",
+      "A team-based hackathon concept exploring how digital bus stop displays could make public transit information more visible, accessible, and useful for riders. As Team Lead of a six-person team, I coordinated the group, contributed to the UX and interface concept, and supported the final prototype and presentation.",
+    techStack: ["UI/UX Design", "Concept Sketching", "Prototyping", "Team Lead", "Hackathon"],
+    caseStudyUrl: "/projects/edmonton-transit-hackathon",
     status: "active",
   },
+
   {
     id: "proj-5",
     name: "Web Development Projects",
