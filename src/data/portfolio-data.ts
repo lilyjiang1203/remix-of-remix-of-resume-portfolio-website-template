@@ -220,8 +220,4 @@ export const socialLinks: SocialLink[] = [
     platform: "GitHub",
     url: "[Your GitHub URL]",
   },
-  {
-    platform: "Portfolio",
-    url: "[Your Portfolio URL]",
-  },
 ];
