@@ -189,6 +189,15 @@ export const projects: Project[] = [
   },
   {
     id: "proj-4",
+    name: "Edmonton Transit Digital Display Prototype",
+    description:
+      "Developed a digital display prototype for Edmonton Transit during a hackathon, focusing on real-time transit information, user interface design, and responsive layout.",
+    techStack: ["UI/UX Design", "Prototyping", "Hackathon"],
+    liveUrl: "[Add Project Link]",
+    status: "active",
+  },
+  {
+    id: "proj-5",
     name: "Web Development Projects",
     description:
       "Built responsive websites and web applications involving content management, CRUD functionality, authentication, databases, and custom user interfaces.",
