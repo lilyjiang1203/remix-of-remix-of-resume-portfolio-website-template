@@ -21,7 +21,7 @@ export interface Experience {
   location: string;
   startDate: string;
   endDate: string | null;
-  description: string;
+  description: string | string[];
   media?: string;
   current: boolean;
 }
