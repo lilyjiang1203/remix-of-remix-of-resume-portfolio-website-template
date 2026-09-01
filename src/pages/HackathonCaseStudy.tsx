@@ -10,6 +10,10 @@ import sketch1Asset from "@/assets/hackathon-sketch-1.jpg.asset.json";
 import sketch2Asset from "@/assets/hackathon-sketch-2.jpg.asset.json";
 import techDenAsset from "@/assets/hackathon-techden.jpg.asset.json";
 import eventAsset from "@/assets/hackathon-event.jpg.asset.json";
+import teamworkAsset from "@/assets/hackathon-teamwork.jpg.asset.json";
+import pitchConceptAsset from "@/assets/hackathon-pitch-concept.jpg.asset.json";
+import pitchTechAsset from "@/assets/hackathon-pitch-tech.jpg.asset.json";
+import pitchBenefitsAsset from "@/assets/hackathon-pitch-benefits.jpg.asset.json";
 
 interface FigureProps {
   src: string;
@@ -137,8 +141,14 @@ export default function HackathonCaseStudy() {
               caption="Layout and flow exploration: how content blocks rotate and how riders scan the screen."
             />
           </div>
+          <Figure
+            src={teamworkAsset.url}
+            alt="Team working together on laptops during the hackathon"
+            caption="Working session during the hackathon: research, sketching, and building the prototype together."
+          />
         </div>
       </SplitSection>
+
 
       <SplitSection title="Solution" id="solution">
         <p className="text-body text-foreground/85 max-w-reading leading-relaxed">
@@ -147,6 +157,36 @@ export default function HackathonCaseStudy() {
           information.
         </p>
       </SplitSection>
+
+      <SplitSection title="Final Presentation" id="presentation">
+        <div className="space-y-10">
+          <p className="text-body text-foreground/85 max-w-reading leading-relaxed">
+            At the end of the weekend our team presented the concept to the judges &mdash; walking
+            through the rider experience, the technical approach, and the benefits for both riders
+            and the city.
+          </p>
+          <div className="space-y-8">
+            <Figure
+              src={pitchConceptAsset.url}
+              alt="Presentation slide showing an illustrated bus stop with a digital display"
+              caption="Presenting the concept: an illustrated bus stop with a real-time digital display."
+            />
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+              <Figure
+                src={pitchTechAsset.url}
+                alt="Presentation slide listing the technical stack: HTML, CSS, JavaScript, NodeJS"
+                caption="Technical slide: HTML, CSS, JavaScript, and Node.js for the prototype."
+              />
+              <Figure
+                src={pitchBenefitsAsset.url}
+                alt="Presentation slide listing project benefits"
+                caption="Benefits slide: knowing bus locations, realistic arrival times, convenience, and potential ad revenue."
+              />
+            </div>
+          </div>
+        </div>
+      </SplitSection>
+
 
       <SplitSection title="Team &amp; Event" id="team">
         <div className="space-y-10">
