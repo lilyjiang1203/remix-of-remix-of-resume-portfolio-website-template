@@ -171,10 +171,10 @@ export const projects: Project[] = [
   },
   {
     id: "proj-2",
-    name: "Edmonton Transit Digital Display Prototype",
+    name: "Northbound — Responsive Travel Website",
     description:
-      "Led a six-person team in designing a prototype for an interactive digital display system for Edmonton transit stops. Helped coordinate the team, define the product concept, and develop a user-focused solution within a hackathon environment.",
-    techStack: ["UI/UX Design", "Prototyping", "Team Leadership", "Product Design", "Problem Solving"],
+      "Redesigned and developed a responsive Alberta outdoor travel website with custom branding, interactive tour cards, animated navigation, testimonials, and booking UI. Customized typography, colour systems, imagery, and responsive layouts across desktop and mobile.",
+    techStack: ["HTML5", "CSS3", "Responsive Design"],
     liveUrl: "[Add Project Link]",
     status: "active",
   },
