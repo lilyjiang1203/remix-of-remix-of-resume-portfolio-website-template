@@ -158,6 +158,36 @@ export default function HackathonCaseStudy() {
         </p>
       </SplitSection>
 
+      <SplitSection title="Final Presentation" id="presentation">
+        <div className="space-y-10">
+          <p className="text-body text-foreground/85 max-w-reading leading-relaxed">
+            At the end of the weekend our team presented the concept to the judges &mdash; walking
+            through the rider experience, the technical approach, and the benefits for both riders
+            and the city.
+          </p>
+          <div className="space-y-8">
+            <Figure
+              src={pitchConceptAsset.url}
+              alt="Presentation slide showing an illustrated bus stop with a digital display"
+              caption="Presenting the concept: an illustrated bus stop with a real-time digital display."
+            />
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+              <Figure
+                src={pitchTechAsset.url}
+                alt="Presentation slide listing the technical stack: HTML, CSS, JavaScript, NodeJS"
+                caption="Technical slide: HTML, CSS, JavaScript, and Node.js for the prototype."
+              />
+              <Figure
+                src={pitchBenefitsAsset.url}
+                alt="Presentation slide listing project benefits"
+                caption="Benefits slide: knowing bus locations, realistic arrival times, convenience, and potential ad revenue."
+              />
+            </div>
+          </div>
+        </div>
+      </SplitSection>
+
+
       <SplitSection title="Team &amp; Event" id="team">
         <div className="space-y-10">
           <p className="text-body text-foreground/85 max-w-reading leading-relaxed">
