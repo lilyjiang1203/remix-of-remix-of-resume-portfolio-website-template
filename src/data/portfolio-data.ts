@@ -175,7 +175,7 @@ export const projects: Project[] = [
     description:
       "Redesigned and developed a responsive Alberta outdoor travel website with custom branding, interactive tour cards, animated navigation, testimonials, and booking UI. Customized typography, colour systems, imagery, and responsive layouts across desktop and mobile.",
     techStack: ["HTML5", "CSS3", "Responsive Design"],
-    liveUrl: "[Add Project Link]",
+    liveUrl: "https://lilyjiang1203.github.io/Northbound_Alberta/",
     status: "active",
   },
   {
