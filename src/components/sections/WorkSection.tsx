@@ -10,8 +10,13 @@ export default function WorkSection() {
     <SplitSection title="Experience" id="work">
       <div className="space-y-16 md:space-y-20">
         {experience.map((job, index) => {
-          const startYear = format(new Date(job.startDate), "yyyy");
-          const endYear = job.endDate ? format(new Date(job.endDate), "yyyy") : "Present";
+          const safeYear = (value?: string) => {
+            if (!value) return null;
+            const d = new Date(value);
+            return isNaN(d.getTime()) ? value : format(d, "yyyy");
+          };
+          const startYear = safeYear(job.startDate) ?? "";
+          const endYear = safeYear(job.endDate) ?? "Present";
           const numeral = String(index + 1).padStart(2, "0");
 
           return (
