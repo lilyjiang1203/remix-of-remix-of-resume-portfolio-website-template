@@ -199,16 +199,6 @@ export const education: Education[] = [
     location: "Edmonton, Alberta, Canada",
     details: "Studied software development, web development, mobile application development, databases, networking, and user interface design.",
   },
-  {
-    id: "edu-2",
-    institution: "[College Name], China",
-    degree: "Diploma",
-    field: "Animation / Digital Media Design",
-    startYear: "2005",
-    endYear: "2010",
-    location: "China",
-    details: "Studied animation, visual design, digital media, and related creative disciplines, building the foundation for several years of professional graphic and digital design work.",
-  },
 ];
 
 export const socialLinks: SocialLink[] = [
