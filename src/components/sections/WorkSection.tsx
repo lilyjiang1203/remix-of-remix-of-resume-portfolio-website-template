@@ -10,7 +10,7 @@ export default function WorkSection() {
     <SplitSection title="Experience" id="work">
       <div className="space-y-16 md:space-y-20">
         {experience.map((job, index) => {
-          const safeYear = (value?: string) => {
+          const safeYear = (value?: string | null) => {
             if (!value) return null;
             const d = new Date(value);
             return isNaN(d.getTime()) ? value : format(d, "yyyy");
