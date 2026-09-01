@@ -162,11 +162,11 @@ export const speaking: Speaking[] = [
 export const projects: Project[] = [
   {
     id: "proj-1",
-    name: "Clinic Management System",
+    name: "Happy Paws Pet Care",
     description:
-      "Designed a clinic management system for receptionists, nurses, doctors, and clinic managers. Created user workflows, wireframes, database structures, and role-based interfaces focused on simplifying everyday clinic operations.",
-    techStack: ["Figma", "UI/UX Design", "Wireframing", "Workflow Design", "ERD", "Database Design"],
-    liveUrl: "[Add Figma or Portfolio Link]",
+      "Designed and developed a responsive pet care website using jQuery, jQuery UI, and PHP/MySQL. Implemented interactive components including dynamic layouts, form validation, content sliders, multi-select filters, and data visualization with FLOT.",
+    techStack: ["jQuery", "jQuery UI", "PHP", "MySQL", "FLOT", "Responsive Design"],
+    liveUrl: "https://lilyjiang1203.github.io/happy-paws-jquery/",
     status: "active",
   },
   {
