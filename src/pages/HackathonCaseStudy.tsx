@@ -10,6 +10,10 @@ import sketch1Asset from "@/assets/hackathon-sketch-1.jpg.asset.json";
 import sketch2Asset from "@/assets/hackathon-sketch-2.jpg.asset.json";
 import techDenAsset from "@/assets/hackathon-techden.jpg.asset.json";
 import eventAsset from "@/assets/hackathon-event.jpg.asset.json";
+import teamworkAsset from "@/assets/hackathon-teamwork.jpg.asset.json";
+import pitchConceptAsset from "@/assets/hackathon-pitch-concept.jpg.asset.json";
+import pitchTechAsset from "@/assets/hackathon-pitch-tech.jpg.asset.json";
+import pitchBenefitsAsset from "@/assets/hackathon-pitch-benefits.jpg.asset.json";
 
 interface FigureProps {
   src: string;
