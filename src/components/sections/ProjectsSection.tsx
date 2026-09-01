@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { projects } from "@/data/portfolio-data";
 import SplitSection from "@/components/ui/split-section";
 
