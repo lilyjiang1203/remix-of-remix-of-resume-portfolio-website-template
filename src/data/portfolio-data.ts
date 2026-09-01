@@ -34,7 +34,10 @@ export const experience: Experience[] = [
     location: "Edmonton, Alberta, Canada",
     startDate: "2024",
     endDate: "2025",
-    description: "Designed and developed web and mobile applications as part of the Computer Software Development program. Worked with front-end and back-end technologies, databases, responsive interfaces, and UI/UX workflows while completing individual and team-based software projects.",
+    description: [
+      "Designed and developed web and mobile applications as part of the Computer Software Development program.",
+      "Worked with front-end and back-end technologies, databases, responsive interfaces, and UI/UX workflows while completing individual and team-based software projects.",
+    ],
     current: false,
   },
   {
@@ -44,7 +47,10 @@ export const experience: Experience[] = [
     location: "China",
     startDate: "[Start Year]",
     endDate: "[End Year]",
-    description: "Designed digital marketing materials, product pages, promotional graphics, and storefront layouts for Tmall and other e-commerce platforms. Worked closely with product and marketing teams to create visually engaging online shopping experiences while maintaining brand consistency.",
+    description: [
+      "Designed digital marketing materials, product pages, promotional graphics, and storefront layouts for Tmall and other e-commerce platforms.",
+      "Worked closely with product and marketing teams to create visually engaging online shopping experiences while maintaining brand consistency.",
+    ],
     current: false,
   },
   {
@@ -54,7 +60,11 @@ export const experience: Experience[] = [
     location: "Wuhan, Hubei, China",
     startDate: "2014",
     endDate: "2017",
-    description: "Managed visual design and digital content for the company's Tmall e-commerce store, supporting multiple well-known printer and technology brands. Designed product detail pages, storefront layouts, product images, promotional banners, and advertising graphics, and maintained product listings and visual content through the Tmall seller platform. Created campaign assets for major e-commerce promotions, including Double 11 (Singles' Day), 618, seasonal sales, and new product launches. Collaborated with sales and marketing teams to update product information, pricing promotions, and campaign content while maintaining consistent branding across the online store and company website. Redesigned and maintained the company website and produced additional digital and print marketing materials to support online and offline sales.",
+    description: [
+      "Managed visual design and digital content for the company's Tmall e-commerce store, supporting multiple well-known printer and technology brands. Designed product detail pages, storefront layouts, product images, promotional banners, and advertising graphics, and maintained product listings and visual content through the Tmall seller platform.",
+      "Created campaign assets for major e-commerce promotions, including Double 11 (Singles' Day), 618, seasonal sales, and new product launches. Collaborated with sales and marketing teams to update product information, pricing promotions, and campaign content while maintaining consistent branding across the online store and company website.",
+      "Redesigned and maintained the company website and produced additional digital and print marketing materials to support online and offline sales.",
+    ],
     current: false,
   },
 ];
