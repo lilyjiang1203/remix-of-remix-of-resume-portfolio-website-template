@@ -56,6 +56,8 @@ export interface Project {
   techStack: string[];
   liveUrl?: string;
   githubUrl?: string;
+  /** Internal route to a full case study page */
+  caseStudyUrl?: string;
   status: "active" | "archived";
 }
 
