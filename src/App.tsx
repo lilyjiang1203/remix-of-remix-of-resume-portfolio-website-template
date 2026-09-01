@@ -8,6 +8,7 @@ import { ErrorBoundary } from "@/components/ErrorBoundary";
 import Index from "./pages/Index";
 import StyleGuide from "./pages/StyleGuide";
 import Experience from "./pages/Experience";
+import HackathonCaseStudy from "./pages/HackathonCaseStudy";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
