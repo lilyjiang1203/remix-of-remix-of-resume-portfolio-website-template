@@ -35,16 +35,6 @@ export default function ContactSection() {
               >
                 {personalInfo.email}
               </a>
-              {personalInfo.website && (
-                <a
-                  href={`https://${personalInfo.website}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-body text-foreground/85 underline underline-offset-4 decoration-primary/40 hover:decoration-primary block mt-1"
-                >
-                  {personalInfo.website}
-                </a>
-              )}
             </div>
 
             <div className="flex flex-wrap gap-x-6 gap-y-2 pt-2">
