@@ -141,8 +141,14 @@ export default function HackathonCaseStudy() {
               caption="Layout and flow exploration: how content blocks rotate and how riders scan the screen."
             />
           </div>
+          <Figure
+            src={teamworkAsset.url}
+            alt="Team working together on laptops during the hackathon"
+            caption="Working session during the hackathon: research, sketching, and building the prototype together."
+          />
         </div>
       </SplitSection>
+
 
       <SplitSection title="Solution" id="solution">
         <p className="text-body text-foreground/85 max-w-reading leading-relaxed">
