@@ -7,7 +7,7 @@ export interface PersonalInfo {
   name: string;
   title: string;
   location: { city: string; country: string };
-  website: string;
+  website?: string;
   email: string;
   avatar: string;
   bio: string;
