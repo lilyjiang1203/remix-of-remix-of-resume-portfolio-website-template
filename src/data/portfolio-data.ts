@@ -49,12 +49,12 @@ export const experience: Experience[] = [
   },
   {
     id: "exp-3",
-    company: "[Company Name]",
-    role: "Graphic Designer",
-    location: "China",
-    startDate: "[Start Year]",
-    endDate: "[End Year]",
-    description: "Created visual assets for digital and print media, including promotional materials, advertising graphics, layouts, and branded content. Developed strong skills in visual communication, typography, composition, and user-focused design.",
+    company: "Shijixinchuang Commercial and Trading Co., Ltd",
+    role: "Graphic Designer & Web Designer",
+    location: "Wuhan, Hubei, China",
+    startDate: "2014",
+    endDate: "2017",
+    description: "Managed visual design and digital content for the company's Tmall e-commerce store, supporting multiple well-known printer and technology brands. Designed product detail pages, storefront layouts, product images, promotional banners, and advertising graphics, and maintained product listings and visual content through the Tmall seller platform. Created campaign assets for major e-commerce promotions, including Double 11 (Singles' Day), 618, seasonal sales, and new product launches. Collaborated with sales and marketing teams to update product information, pricing promotions, and campaign content while maintaining consistent branding across the online store and company website. Redesigned and maintained the company website and produced additional digital and print marketing materials to support online and offline sales.",
     current: false,
   },
 ];
