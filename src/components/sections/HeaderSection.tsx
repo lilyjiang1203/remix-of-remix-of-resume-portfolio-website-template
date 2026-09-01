@@ -66,7 +66,7 @@ export default function HeaderSection() {
             <div className="flex flex-col">
               <span className="text-tiny text-primary/50 mb-2">Focus</span>
               <span className="text-xl text-primary" style={{ fontFamily: "var(--font-family-serif)" }}>
-                UI/UX Design & Development
+                Full Stack Development
               </span>
             </div>
             <div className="flex flex-col">
