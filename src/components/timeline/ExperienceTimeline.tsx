@@ -4,15 +4,21 @@ import TimelineItem from "./TimelineItem";
 export default function ExperienceTimeline() {
   const formatDateRange = (startDate: string, endDate: string | null) => {
     const start = new Date(startDate);
-    const startMonth = start.toLocaleDateString("en-US", { month: "short", year: "numeric" });
-    
+    const startIsValid = !isNaN(start.getTime());
+    const startMonth = startIsValid
+      ? start.toLocaleDateString("en-US", { month: "short", year: "numeric" })
+      : startDate;
+
     if (!endDate) {
       return `${startMonth} — Present`;
     }
-    
+
     const end = new Date(endDate);
-    const endMonth = end.toLocaleDateString("en-US", { month: "short", year: "numeric" });
-    
+    const endIsValid = !isNaN(end.getTime());
+    const endMonth = endIsValid
+      ? end.toLocaleDateString("en-US", { month: "short", year: "numeric" })
+      : endDate;
+
     return `${startMonth} — ${endMonth}`;
   };
 
