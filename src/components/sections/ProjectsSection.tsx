@@ -42,6 +42,14 @@ export default function ProjectsSection() {
                   </ul>
                 )}
                 <div className="flex flex-wrap gap-6 pt-2">
+                  {project.caseStudyUrl && (
+                    <Link
+                      to={project.caseStudyUrl}
+                      className="text-tiny text-primary hover:text-accent transition-colors underline underline-offset-4"
+                    >
+                      Read case study
+                    </Link>
+                  )}
                   {isRealUrl(project.liveUrl) && (
                     <a
                       href={project.liveUrl}
