@@ -201,9 +201,10 @@ export const projects: Project[] = [
     id: "proj-5",
     name: "E-Bike Business Management System",
     description:
-      "Built a full-stack business management system for e-bike sales, returns, purchasing, receiving, and servicing workflows. Implemented ASP.NET Core Identity with role-based access control for Salesperson, Sales Manager, Parts Manager, Store Staff, Mechanic, and Shop Manager roles. Designed and integrated SQL Server databases for authentication and business operations using Entity Framework Core. Deployed the application to Microsoft Azure App Service and migrated production data to Azure SQL Database. Configured secure cloud connection strings and validated role-specific navigation and functionality in a live production environment.",
+      "Built a full-stack management system for e-bike sales, returns, purchasing, receiving, and servicing. Implemented ASP.NET Core Identity with role-based access control for multiple employee roles, integrated SQL Server with Entity Framework Core, and deployed the application to Microsoft Azure App Service with Azure SQL Database.",
     techStack: ["ASP.NET Core", "Blazor", "MudBlazor", "Entity Framework Core", "SQL Server", "Azure App Service", "Azure SQL", "Git/GitHub"],
     liveUrl: "https://ebike-business-management-system-lily-ezaththqg7gdfghy.westus3-01.azurewebsites.net/",
+    githubUrl: "[Add GitHub Link]",
     status: "active",
   },
 ];
