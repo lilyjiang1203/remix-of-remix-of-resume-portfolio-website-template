@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { projects } from "@/data/portfolio-data";
 import SplitSection from "@/components/ui/split-section";
+import { Button } from "@/components/ui/button";
 
 function isRealUrl(url?: string) {
   return !!url && !url.trim().startsWith("[");
@@ -15,7 +16,7 @@ export default function ProjectsSection() {
           return (
             <div key={project.id}>
               {index > 0 && <hr className="border-t border-border mb-16 md:mb-20" />}
-              <div className="space-y-3">
+              <div className="space-y-4">
                 <div className="flex items-baseline gap-4">
                   <span
                     className="text-primary/25 text-5xl leading-none"
@@ -42,36 +43,40 @@ export default function ProjectsSection() {
                     ))}
                   </ul>
                 )}
-                <div className="flex flex-wrap gap-6 pt-2">
-                  {project.caseStudyUrl && (
+                <div className="flex flex-wrap items-center gap-4 pt-3">
+                  {isRealUrl(project.liveUrl) && (
+                    <Button asChild size="sm">
+                      <a
+                        href={project.liveUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Live Demo
+                      </a>
+                    </Button>
+                  )}
+                  {isRealUrl(project.githubUrl) && (
+                    <Button variant="outline" asChild size="sm">
+                      <a
+                        href={project.githubUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        GitHub
+                      </a>
+                    </Button>
+                  )}
+                </div>
+                {project.caseStudyUrl && (
+                  <div className="pt-1">
                     <Link
                       to={project.caseStudyUrl}
                       className="text-tiny text-primary hover:text-accent transition-colors underline underline-offset-4"
                     >
                       Read case study
                     </Link>
-                  )}
-                  {isRealUrl(project.liveUrl) && (
-                    <a
-                      href={project.liveUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-tiny text-primary hover:text-accent transition-colors underline underline-offset-4"
-                    >
-                      View project
-                    </a>
-                  )}
-                  {isRealUrl(project.githubUrl) && (
-                    <a
-                      href={project.githubUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-tiny text-primary hover:text-accent transition-colors underline underline-offset-4"
-                    >
-                      GitHub
-                    </a>
-                  )}
-                </div>
+                  </div>
+                )}
               </div>
             </div>
           );
