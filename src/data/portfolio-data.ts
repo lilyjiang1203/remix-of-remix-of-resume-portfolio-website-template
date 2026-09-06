@@ -207,6 +207,16 @@ export const projects: Project[] = [
     githubUrl: "[Add GitHub Link]",
     status: "active",
   },
+  {
+    id: "proj-6",
+    name: "Secure REST API with JWT & Role-Based Access Control",
+    description:
+      "Developed a secure REST API with JWT-based authentication and role-based authorization using Keycloak and PostgreSQL. Implemented protected endpoints with different access levels for authenticated users and administrators, and deployed the application to Microsoft Azure.",
+    techStack: ["Java / Jakarta EE", "REST API", "JWT", "Keycloak", "PostgreSQL", "Podman", "Azure"],
+    liveUrl: "[Add Live Demo URL]",
+    githubUrl: "[Add GitHub URL]",
+    status: "active",
+  },
 ];
 
 export const education: Education[] = [
