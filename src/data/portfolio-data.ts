@@ -209,10 +209,10 @@ export const projects: Project[] = [
   },
   {
     id: "proj-6",
-    name: "Secure REST API with JWT & Role-Based Access Control",
+    name: "Secure Multi-Tenant Billing Application",
     description:
-      "Developed a secure REST API with JWT-based authentication and role-based authorization using Keycloak and PostgreSQL. Implemented protected endpoints with different access levels for authenticated users and administrators, and deployed the application to Microsoft Azure.",
-    techStack: ["Java / Jakarta EE", "REST API", "JWT", "Keycloak", "PostgreSQL", "Podman", "Azure"],
+      "Full-stack Jakarta EE application demonstrating JWT-based authentication, role-based access control, and multi-tenant data isolation. Built with Jakarta Faces, PrimeFaces, REST APIs, MicroProfile JWT, Keycloak, and WildFly.",
+    techStack: ["Jakarta EE", "Jakarta Faces", "PrimeFaces", "REST API", "MicroProfile JWT", "Keycloak", "WildFly"],
     liveUrl: "[Add Live Demo URL]",
     githubUrl: "[Add GitHub URL]",
     status: "active",
