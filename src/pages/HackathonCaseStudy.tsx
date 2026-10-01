@@ -3,17 +3,17 @@ import { useEffect } from "react";
 import Layout from "@/components/Layout";
 import Navigation from "@/components/Navigation";
 import SplitSection from "@/components/ui/split-section";
-import teamAsset from "@/assets/hackathon-team.jpg.asset.json";
-import referenceAsset from "@/assets/hackathon-reference.jpg.asset.json";
-import portraitAsset from "@/assets/hackathon-portrait.jpg.asset.json";
-import sketch1Asset from "@/assets/hackathon-sketch-1.jpg.asset.json";
-import sketch2Asset from "@/assets/hackathon-sketch-2.jpg.asset.json";
-import techDenAsset from "@/assets/hackathon-techden.jpg.asset.json";
-import eventAsset from "@/assets/hackathon-event.jpg.asset.json";
-import teamworkAsset from "@/assets/hackathon-teamwork.jpg.asset.json";
-import pitchConceptAsset from "@/assets/hackathon-pitch-concept.jpg.asset.json";
-import pitchTechAsset from "@/assets/hackathon-pitch-tech.jpg.asset.json";
-import pitchBenefitsAsset from "@/assets/hackathon-pitch-benefits.jpg.asset.json";
+import teamAsset from "@/assets/hackathon-team.jpg";
+import referenceAsset from "@/assets/hackathon-reference.jpg";
+import portraitAsset from "@/assets/hackathon-portrait.jpg";
+import sketch1Asset from "@/assets/hackathon-sketch-1.jpg";
+import sketch2Asset from "@/assets/hackathon-sketch-2.jpg";
+import techDenAsset from "@/assets/hackathon-techden.jpg";
+import eventAsset from "@/assets/hackathon-event.jpg";
+import teamworkAsset from "@/assets/hackathon-teamwork.jpg";
+import pitchConceptAsset from "@/assets/hackathon-pitch-concept.jpg";
+import pitchTechAsset from "@/assets/hackathon-pitch-tech.jpg";
+import pitchBenefitsAsset from "@/assets/hackathon-pitch-benefits.jpg";
 
 interface FigureProps {
   src: string;
@@ -81,7 +81,7 @@ export default function HackathonCaseStudy() {
           </div>
 
           <Figure
-            src={teamAsset.url}
+            src={teamAsset}
             alt="Hackathon team standing in front of an Edmonton Unlimited backdrop"
             caption="Team photo after the hackathon presentation. One team member had left before the photo was taken."
           />
@@ -97,7 +97,7 @@ export default function HackathonCaseStudy() {
           </p>
           <div className="max-w-sm">
             <Figure
-              src={referenceAsset.url}
+              src={referenceAsset}
               alt="Digital electronic bus stop display showing multiple routes and schedules"
               caption="Reference photo taken in China: an electronic bus stop display showing full route lines, arrival windows, and service hours. It became the starting point for asking whether Edmonton bus stops could communicate this clearly."
             />
@@ -114,7 +114,7 @@ export default function HackathonCaseStudy() {
           </p>
           <div className="max-w-xs">
             <Figure
-              src={portraitAsset.url}
+              src={portraitAsset}
               alt="Li Jiang at the City of Edmonton hackathon"
               caption="At the hackathon, hosted by Edmonton Unlimited."
             />
@@ -131,18 +131,18 @@ export default function HackathonCaseStudy() {
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
             <Figure
-              src={sketch1Asset.url}
+              src={sketch1Asset}
               alt="Hand-drawn concept sketches titled Real-time Bus Stop Displays"
               caption="Early concept sketches: screen zones for live routes, arrival order, and secondary information."
             />
             <Figure
-              src={sketch2Asset.url}
+              src={sketch2Asset}
               alt="Hand-drawn layout and flow sketches for the display screens"
               caption="Layout and flow exploration: how content blocks rotate and how riders scan the screen."
             />
           </div>
           <Figure
-            src={teamworkAsset.url}
+            src={teamworkAsset}
             alt="Team working together on laptops during the hackathon"
             caption="Working session during the hackathon: research, sketching, and building the prototype together."
           />
@@ -167,18 +167,18 @@ export default function HackathonCaseStudy() {
           </p>
           <div className="space-y-8">
             <Figure
-              src={pitchConceptAsset.url}
+              src={pitchConceptAsset}
               alt="Presentation slide showing an illustrated bus stop with a digital display"
               caption="Presenting the concept: an illustrated bus stop with a real-time digital display."
             />
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
               <Figure
-                src={pitchTechAsset.url}
+                src={pitchTechAsset}
                 alt="Presentation slide listing the technical stack: HTML, CSS, JavaScript, NodeJS"
                 caption="Technical slide: HTML, CSS, JavaScript, and Node.js for the prototype."
               />
               <Figure
-                src={pitchBenefitsAsset.url}
+                src={pitchBenefitsAsset}
                 alt="Presentation slide listing project benefits"
                 caption="Benefits slide: knowing bus locations, realistic arrival times, convenience, and potential ad revenue."
               />
@@ -197,12 +197,12 @@ export default function HackathonCaseStudy() {
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-[1fr_1.4fr] gap-8 items-start">
             <Figure
-              src={techDenAsset.url}
+              src={techDenAsset}
               alt="Tech+Den room sign at Edmonton Unlimited with the team's name card"
               caption="Our assigned Tech+Den team room."
             />
             <Figure
-              src={eventAsset.url}
+              src={eventAsset}
               alt="Two teammates in the audience during the hackathon presentations"
               caption="During the presentation sessions at the event."
             />
