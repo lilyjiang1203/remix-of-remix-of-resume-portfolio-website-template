@@ -21,7 +21,7 @@ export const personalInfo: PersonalInfo = {
   title: "Full Stack Developer",
   location: { city: "Edmonton, Alberta", country: "Canada" },
   email: "lilyjiang1203@gmail.com",
-  avatar: sarahPortrait.url,
+  avatar: sarahPortrait,
   bio: "I am a full stack developer based in Edmonton, Canada, with a background in graphic design, e-commerce design, and software development. Before transitioning into technology, I spent several years working in visual and digital design, including designing content and storefront experiences for Tmall e-commerce platforms in China.\n\nI recently completed the Computer Software Development program at NAIT, where I developed skills in web and mobile development, databases, UI/UX design, and application development. My design background helps me approach software from both a technical and user-centered perspective, with a strong focus on creating interfaces that are clear, practical, and visually engaging.\n\nI enjoy working on projects that combine technology, design, and real-world problem solving, particularly in areas such as healthcare technology, data-driven applications, and digital products.",
   skills: "Full-Stack Development, Front-End Development, Software Development, C#, SQL, React.js, Node.js, JavaScript, RESTful architecture, Adobe Illustrator, Digital Marketing, Project Management, Blazor, Django, PHP, HTML5, Graphic Design, E-Commerce, Marketing Materials, Web Development, Marketing Campaign Strategies, RESTful WebServices, Problem Solving, Architecture Frameworks, Promotional Design, GitHub, Social Media, Communication, CorelDRAW, MySQL, Adobe Photoshop, Mac & PC platforms",
 };
