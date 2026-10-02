@@ -213,7 +213,7 @@ export const projects: Project[] = [
     description:
       "Full-stack Jakarta EE application demonstrating JWT-based authentication, role-based access control, and multi-tenant data isolation. Built with Jakarta Faces, PrimeFaces, REST APIs, MicroProfile JWT, Keycloak, and WildFly.",
     techStack: ["Jakarta EE", "Jakarta Faces", "PrimeFaces", "REST API", "MicroProfile JWT", "Keycloak", "WildFly"],
-    liveUrl: "[Add Live Demo URL]",
+    liveUrl: "https://securebill-web.calmtree-49de5411.westus2.azurecontainerapps.io",
     githubUrl: "[Add GitHub URL]",
     status: "active",
   },
