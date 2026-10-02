@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { projects } from "@/data/portfolio-data";
 import SplitSection from "@/components/ui/split-section";
 import { Button } from "@/components/ui/button";
+import DemoAccountsDialog from "@/components/DemoAccountsDialog";
 
 function isRealUrl(url?: string) {
   return !!url && !url.trim().startsWith("[");
@@ -67,6 +68,9 @@ export default function ProjectsSection() {
                     </Button>
                   )}
                 </div>
+                {project.id === "proj-6" && project.liveUrl && (
+                  <DemoAccountsDialog liveUrl={project.liveUrl} />
+                )}
                 {project.caseStudyUrl && (
                   <div className="pt-1">
                     <Link
