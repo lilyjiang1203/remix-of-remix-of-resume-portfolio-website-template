@@ -211,7 +211,7 @@ export const projects: Project[] = [
     id: "proj-6",
     name: "Secure Multi-Tenant Billing Application",
     description:
-      "Full-stack Jakarta EE application demonstrating JWT-based authentication, role-based access control, and multi-tenant data isolation. Built with Jakarta Faces, PrimeFaces, REST APIs, MicroProfile JWT, Keycloak, and WildFly.",
+      "Full-stack Jakarta EE application demonstrating JWT-based authentication, role-based access control, and multi-tenant data access and isolation. Built with Jakarta Faces, PrimeFaces, REST APIs, MicroProfile JWT, Keycloak, and WildFly.",
     techStack: ["Jakarta EE", "Jakarta Faces", "PrimeFaces", "REST API", "MicroProfile JWT", "Keycloak", "WildFly"],
     liveUrl: "https://securebill-web.calmtree-49de5411.westus2.azurecontainerapps.io",
     githubUrl: "[Add GitHub URL]",
